@@ -25,9 +25,17 @@ button{
 }
 input{
   padding: 10px;
-  position: relative;
   margin-top: 10px;
   border: none;
+  position: relative;
+  display: block;
+}
+input::after{
+  content: '';
+  position: absolute;
+  background-color: red;
+  width: 200px;
+  height: 200px;
 }
 
 
