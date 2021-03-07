@@ -66,6 +66,8 @@ textarea{
   outline: none;
   resize: none;
   background-color: rgb(228, 227, 227);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.3rem;
 }
 .info{
 width: 100%; 
@@ -79,7 +81,7 @@ flex-direction: row-reverse;
 .user {
   background-color: cornflowerblue;
   border-radius: 2px;
-  margin: 13px auto;
+  margin: 6px auto;
   font-size: 1.4rem;
 
 }

@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Message = () => {
+const Message = ({ message, pseudo }) => {
     return (
         <p className="user">
-         first msg !!!
+         { message }
         </p>
     );
 };
