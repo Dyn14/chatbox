@@ -5,7 +5,7 @@ const Message = ({ message, pseudo, isUser }) => {
     if (isUser(pseudo)) {
         return (
             <p className="user">
-             { message } : moi
+             { message } 
             </p>
         );
     }

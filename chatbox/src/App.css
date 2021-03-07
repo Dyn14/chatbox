@@ -105,5 +105,9 @@ flex-direction: row-reverse;
 
 }
 
-
+@media screen and (max-width: 768px) {
+  .form, .messages{
+    width: 95%;
+  }
+}
 
