@@ -1,5 +1,5 @@
 body{
-  background: #ccc;
+  background: rgb(252, 247, 247);
 }
 
 .connexionBox{
@@ -38,4 +38,48 @@ input::after{
   height: 200px;
 }
 
+.box{
+  width: 100%;
+  height: 100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
+.form{
+  margin-top: 40px;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items:flex-end;
+  flex-direction: column;
+  position: relative;
+}
+textarea, .envoyer {
+  width: 100%;
+}
+textarea{
+  height: 14rem;
+  border: none;
+  border-bottom: 8px solid cornflowerblue;
+  outline: none;
+  resize: none;
+  background-color: rgb(228, 227, 227);
+}
+.info{
+width: 100%; 
+display: flex;
+flex-direction: row-reverse;
+}
+.messages{
+  width: 60%;
+}
+
+.user {
+  background-color: cornflowerblue;
+  border-radius: 2px;
+  margin: 13px auto;
+  font-size: 1.4rem;
+
+}

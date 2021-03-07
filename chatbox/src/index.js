@@ -12,8 +12,8 @@ const Root = () => {
 
     <BrowserRouter>
       <Switch>
-        <Route path="/" exact component={App} />
-        <Route path="/pseudo/:pseudo" exact component={Connection} />
+        <Route path="/" exact component={Connection} />
+        <Route path="/pseudo/:pseudo" exact component={App} />
         <Route component={Notfound} />
       </Switch>
     </BrowserRouter>
