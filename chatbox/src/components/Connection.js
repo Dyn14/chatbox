@@ -26,6 +26,7 @@ handleSubmit = e => {
 
     return (
       <div className="connexionBox">
+            <h1>Chat-DN</h1>
              <form className="connexion" onSubmit={this.handleSubmit}>
              <input 
              value={this.state.name}

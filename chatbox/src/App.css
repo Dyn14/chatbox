@@ -1,6 +1,8 @@
 body{
-  background: rgb(252, 247, 247);
+  background: linear-gradient(45deg, rgb(92, 45, 136), rgb(165, 61, 151), rgb(37, 62, 146))
 }
+
+
 
 .connexionBox{
   width: 100%;
@@ -8,6 +10,13 @@ body{
   display:flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+
+h1{
+  color: aliceblue;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 8rem;
 }
 
 .connexion{
@@ -51,10 +60,9 @@ input::after{
   margin-top: 40px;
   width: 60%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items:flex-end;
   flex-direction: column;
-  position: relative;
 }
 textarea, .envoyer {
   width: 100%;
@@ -75,7 +83,10 @@ display: flex;
 flex-direction: row-reverse;
 }
 .messages{
-  width: 60%;
+ width: 50%;  
+ height: 400px;
+ scroll-behavior: smooth;
+ overflow-y: scroll;
 }
 
 .user {
@@ -83,5 +94,16 @@ flex-direction: row-reverse;
   border-radius: 2px;
   margin: 6px auto;
   font-size: 1.4rem;
+  text-align: end;
+}
+.no-user{
+  background-color: #ccc;
+  border-radius: 2px;
+  margin: 12px auto;
+  font-size: 1.4rem;
+  color: black;
 
 }
+
+
+
