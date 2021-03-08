@@ -11,11 +11,11 @@ const Message = ({ message, pseudo, isUser }) => {
     }
     else{
         return (
-            <div className="notUser">
+        
             <p className="no-user">
                 <strong>{pseudo}: </strong>{message}
             </p>
-            </div>
+        
         );
     }
 };

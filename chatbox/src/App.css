@@ -18,14 +18,18 @@ h1{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 8rem;
 }
+.titleform{
+  font-size: 1rem;
+}
+
 
 .connexion{
   display: flex;
   flex-direction: column;
+  
 }
 button{
   height: 35px;
-  width: 200px;
   background:cornflowerblue;
   color: aliceblue;
   margin-top: 10px;
@@ -54,6 +58,7 @@ input::after{
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding-bottom: 10px;
 }
 
 .form{
@@ -84,7 +89,7 @@ flex-direction: row-reverse;
 }
 .messages{
  width: 50%;  
- height: 400px;
+ 
  scroll-behavior: smooth;
  overflow-y: scroll;
 }
@@ -95,6 +100,9 @@ flex-direction: row-reverse;
   margin: 6px auto;
   font-size: 1.4rem;
   text-align: end;
+  border-radius: 15px;
+  padding: 8px;
+  overflow-wrap: break-word;
 }
 .no-user{
   background-color: #ccc;
@@ -102,12 +110,55 @@ flex-direction: row-reverse;
   margin: 12px auto;
   font-size: 1.4rem;
   color: black;
-
+  border-radius: 15px;
+  padding: 7px;
+  overflow-wrap: break-word;
+}
+.envoyer{
+  border-radius: 15px;
 }
 
 @media screen and (max-width: 768px) {
   .form, .messages{
     width: 95%;
   }
+  h1{
+    font-size: 3rem;
+    position: fixed;
+    top: 0;
+    background: rgba(0, 0, 0, 0.315);
+    text-align: center;
+    width: 100%;
+  }
+  .titleform{
+    font-size: 1.3rem;
+  }
+
+  .connexion{
+    width: 90%;
+    height: 45px;
+  }
+  
+  .form{
+    display: flex;
+    flex-direction: row;
+  }
+  
+.envoyer{
+    width: 25%;
+    height: 4rem;
+   border-radius: 20px;
+}
+
+  textarea{
+    width: 220rem;
+    height: 3rem;
+    border-radius: 20px;
+    border: none;
+  }
+.info{
+  display: none;
+}
+
 }
 

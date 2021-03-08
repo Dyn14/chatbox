@@ -53,6 +53,7 @@ class App extends Component {
 
         return (
            <div className="box">
+              <h1 className="titleform">Chat-DN</h1>
                 <div className="messages" ref={this.messagesRef}>
                   { messages }
                 </div>
